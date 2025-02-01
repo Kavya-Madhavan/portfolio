@@ -1,0 +1,435 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+}
+
+.nav-container .logo span {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.links {
+    display: flex;
+}
+
+.links .link {
+    margin: 0 1rem;
+}
+
+.links .link a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.contact-btn a {
+    background-color: #007bff;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.contact-btn a:hover {
+    background-color: #0056b3;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+}
+
+.social-links a {
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+/* About Section */
+.about {
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+/* Skills Section */
+.skills {
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+.skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.skills ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills ul li {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    margin-top: 3rem;
+}
+
+.contact-info h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.contact-info ul li {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 0.8rem 0;
+}
+
+.contact-info ul li i {
+    margin-right: 10px;
+}
+
+.contact-info ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    margin: 0 15px;
+}
+
+.link a {
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 12px;
+}
+
+.link a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Education Section Styles */
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background-color: #0077b5; /* LinkedIn Blue */
+    padding: 15px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo span {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links .link a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.links .link a:hover {
+    color: #f4f4f4;
+}
+
+section.education {
+    padding: 40px 0;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+strong {
+    font-weight: bold;
+    color: #0077b5; /* LinkedIn Blue */
+}
+
+.projects, .achievements {
+    margin-top: 40px;
+}
+
+.projects h3, .achievements h3 {
+    font-size: 1.5rem;
+    color: #0077b5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.projects ul, .achievements ul {
+    padding-left: 0;
+}
+
+.projects li, .achievements li {
+    margin-bottom: 15px;
+}
+
+.projects h4, .achievements h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.projects p, .achievements p {
+    font-size: 1rem;
+}
+
+.projects li p, .achievements li p {
+    margin-bottom: 10px;
+}
+
+.projects li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projects li:hover, .achievements li:hover {
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .links .link a {
+        font-size: 16px;
+    }
+
+    section.education {
+        width: 90%;
+    }
+}
+
+.resume-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background-color: #0056b3;
+}
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
